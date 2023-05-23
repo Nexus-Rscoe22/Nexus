@@ -64,4 +64,25 @@ export const targetElements = [
       origin: "bottom",
     },
   },
+  {
+    element: ".event-wrapper__text-title",
+    animation: {
+      delay: 700,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".event-wrapper__image",
+    animation: {
+      delay: 1000,
+      origin: window.innerWidth > 768 ? "right" : "bottom",
+    },
+  },
+  {
+    element: ".event-wrapper__diff-image",
+    animation: {
+      delay: 1000,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
 ];
