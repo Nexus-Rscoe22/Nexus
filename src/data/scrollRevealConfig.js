@@ -74,15 +74,17 @@ export const targetElements = [
   {
     element: ".event-wrapper__image",
     animation: {
-      delay: 1000,
+      delay: 1200,
+      distance: "90px",
       origin: window.innerWidth > 768 ? "right" : "bottom",
     },
   },
   {
     element: ".event-wrapper__diff-image",
     animation: {
-      delay: 1000,
+      delay: 1200,
       origin: window.innerWidth > 768 ? "left" : "bottom",
+      distance: "90px",
     },
   },
 ];
