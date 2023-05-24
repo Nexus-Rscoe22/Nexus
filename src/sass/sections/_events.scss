@@ -16,6 +16,10 @@
             margin-bottom: 0rem;
         }
 
+        &__div-image {
+            margin-top: 2rem;
+        }
+
         &__text {
             text-align: left;
 
@@ -48,6 +52,11 @@
 
         &__diff-image {
             width: 50%;
+        }
+
+        .event-2,
+        .event-3 {
+            margin-top: 6.5rem;
         }
     }
 }
