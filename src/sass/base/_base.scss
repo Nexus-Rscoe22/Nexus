@@ -1,3 +1,11 @@
+::selection {
+  background-color: rgb(154, 234, 230);
+}
+@if color == #fff {
+  ::selection {
+    background-color: blueviolet;
+  }
+}
 html {
   font-size: 62.5%;
 
